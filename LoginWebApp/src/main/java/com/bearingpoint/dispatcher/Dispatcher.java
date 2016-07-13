@@ -36,8 +36,8 @@ public class Dispatcher extends HttpServlet {
 //            case "/cms/home.html":
 //                page = "homePage";
 //                break;
-            case "/contacte.html":
-                page = "contacte";
+            case "/cms/logout.html":
+                page = "logout";
                 break;
             default:
 

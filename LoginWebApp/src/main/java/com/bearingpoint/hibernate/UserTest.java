@@ -9,8 +9,9 @@ import com.bearingpoint.entities.User;
 import com.bearingpoint.entities.UserRole;
 import com.bearingpoint.service.impl.UserRoleServiceImpl;
 import com.bearingpoint.service.impl.UserServiceImpl;
-import com.bearingpoint.service.intf.UserRoleServiceIntf;
-import com.bearingpoint.service.intf.UserServiceIntf;
+import com.bearingpoint.service.intf.GeneralServiceIntf;
+import com.bearingpoint.service.intf.concrete.UserServiceIntf;
+
 import java.util.List;
 
 public class UserTest {
@@ -18,7 +19,7 @@ public class UserTest {
     public static void main(String[] args) {
         UserServiceIntf userService = new UserServiceImpl();
 
-        UserRoleServiceIntf userRoleService = new UserRoleServiceImpl();
+        GeneralServiceIntf userRoleService = new UserRoleServiceImpl();
 //        UserRole userRoles = (UserRole) userRoleService.findById(1L);
 //        System.out.println("USer ROles Persisted are :");
 //        User user1 = new User();;

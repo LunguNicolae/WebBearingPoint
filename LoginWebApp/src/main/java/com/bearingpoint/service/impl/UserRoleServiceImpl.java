@@ -7,10 +7,12 @@ package com.bearingpoint.service.impl;
 
 import com.bearingpoint.dao.impl.UserRoleDao;
 import com.bearingpoint.entities.UserRole;
-import com.bearingpoint.service.intf.UserRoleServiceIntf;
+import com.bearingpoint.service.intf.GeneralServiceIntf;
+import com.bearingpoint.service.intf.concrete.UserServiceIntf;
+
 import java.util.List;
 
-public class UserRoleServiceImpl implements UserRoleServiceIntf<UserRole, Long> {
+public class UserRoleServiceImpl implements GeneralServiceIntf<UserRole, Long> {
 
     private static UserRoleDao userDao;
 

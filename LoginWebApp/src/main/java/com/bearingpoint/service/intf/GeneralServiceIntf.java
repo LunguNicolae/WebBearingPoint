@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bearingpoint.dao.intf;
+package com.bearingpoint.service.intf;
 
 import java.io.Serializable;
 import java.util.List;
 
-public interface BookDaoIntf<T, Id extends Serializable> {
+public interface GeneralServiceIntf<T, Id extends Serializable> {
 
 	public void persist(T entity);
 	

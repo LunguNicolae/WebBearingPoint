@@ -7,11 +7,12 @@ package com.bearingpoint.service.impl;
 
 import com.bearingpoint.dao.impl.BookDao;
 import com.bearingpoint.entities.Book;
-import com.bearingpoint.service.intf.BookServiceIntf;
+import com.bearingpoint.service.intf.GeneralServiceIntf;
+
 import java.io.Serializable;
 import java.util.List;
 
-public class BookServiceImpl implements BookServiceIntf<Book, String> {
+public class BookServiceImpl implements GeneralServiceIntf<Book, String> {
 
     private static BookDao bookDao;
 

@@ -5,7 +5,8 @@
  */
 package com.bearingpoint.dao.impl;
 
-import com.bearingpoint.dao.intf.BookDaoIntf;
+
+import com.bearingpoint.dao.intf.GeneralDaoIntf;
 import com.bearingpoint.entities.Book;
 import java.util.List;
 import org.hibernate.Session;
@@ -14,7 +15,7 @@ import org.hibernate.Transaction;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
-public class BookDao implements BookDaoIntf<Book, String> {
+public class BookDao implements GeneralDaoIntf<Book, String> {
 
 	private Session currentSession;
 	

@@ -40,13 +40,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Admin PAGE</a>
+                <a class="navbar-brand" href="index.html">User PAGE</a>
             </div>
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown">
-                    <a class="dropdown-toggle" href="/logout.html">Logout</a>
+                    <a class="dropdown-toggle" href="../cms/logout.html">Logout</a>
                   
             </ul>
             <!-- /.navbar-top-links -->
@@ -60,15 +60,12 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="../cms/project.html"></i> Project</a>
+                            <a href="../user/project.html"></i> Project</a>
                         </li>
                         <li>
-                            <a href="../cms/task.html">Task</span></a>
+                            <a href="../user/task.html">Task</span></a>
   
-                        </li>
-                        <li>
-                            <a href="/cms/users.html">Users</a>
-                        </li>                
+                        </li>         
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->

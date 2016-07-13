@@ -12,9 +12,8 @@ import com.bearingpoint.exemption.InvalidPasswordException;
 import com.bearingpoint.service.impl.BookServiceImpl;
 import com.bearingpoint.service.impl.UserRoleServiceImpl;
 import com.bearingpoint.service.impl.UserServiceImpl;
-import com.bearingpoint.service.intf.BookServiceIntf;
-import com.bearingpoint.service.intf.UserRoleServiceIntf;
-import com.bearingpoint.service.intf.UserServiceIntf;
+import com.bearingpoint.service.intf.concrete.UserServiceIntf;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;

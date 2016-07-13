@@ -5,7 +5,7 @@
  */
 package com.bearingpoint.dao.impl;
 
-import com.bearingpoint.dao.intf.UserRoleDaoIntf;
+import com.bearingpoint.dao.intf.GeneralDaoIntf;
 import com.bearingpoint.entities.UserRole;
 import java.util.List;
 import org.hibernate.Query;
@@ -15,7 +15,7 @@ import org.hibernate.Transaction;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
-public class UserRoleDao implements UserRoleDaoIntf<UserRole, Long> {
+public class UserRoleDao implements GeneralDaoIntf<UserRole, Long> {
 
     private Session currentSession;
 

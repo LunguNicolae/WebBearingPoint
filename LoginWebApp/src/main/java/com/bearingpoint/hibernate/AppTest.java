@@ -7,13 +7,14 @@ package com.bearingpoint.hibernate;
 
 import com.bearingpoint.entities.Book;
 import com.bearingpoint.service.impl.BookServiceImpl;
-import com.bearingpoint.service.intf.BookServiceIntf;
+import com.bearingpoint.service.intf.GeneralServiceIntf;
+
 import java.util.List;
 
 public class AppTest {
     public static void main(String[] args) {
 		
-                BookServiceIntf bookService = new BookServiceImpl();
+    	GeneralServiceIntf bookService = new BookServiceImpl();
 		Book book1 = new Book("8", "The Brothers Karamazov", "Fyodor Dostoevsky");
 		Book book2 = new Book("9", "War and Peace", "Leo Tolstoy");
 		Book book3 = new Book("10", "Pride and Prejudice", "Jane Austen");

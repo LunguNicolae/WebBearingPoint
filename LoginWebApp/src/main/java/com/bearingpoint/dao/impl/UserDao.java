@@ -5,8 +5,9 @@
  */
 package com.bearingpoint.dao.impl;
 
-import com.bearingpoint.dao.intf.UserDaoIntf;
+import com.bearingpoint.dao.intf.concrete.UserDaoIntf;
 import com.bearingpoint.entities.User;
+
 import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -108,5 +109,6 @@ public class UserDao implements UserDaoIntf<User, Long> {
             delete(entity);
         }
     }
+
 
 }

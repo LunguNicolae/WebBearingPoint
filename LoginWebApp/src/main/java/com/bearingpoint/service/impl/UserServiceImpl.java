@@ -7,9 +7,8 @@ package com.bearingpoint.service.impl;
 
 import com.bearingpoint.dao.impl.UserDao;
 import com.bearingpoint.entities.User;
+import com.bearingpoint.service.intf.concrete.UserServiceIntf;
 import com.bearingpoint.entities.User;
-import com.bearingpoint.service.intf.UserServiceIntf;
-import com.bearingpoint.service.intf.UserServiceIntf;
 import java.io.Serializable;
 import java.util.List;
 

@@ -7,7 +7,6 @@ package com.bearingpoint.dao.impl;
 
 
 import com.bearingpoint.dao.intf.GeneralDaoIntf;
-import com.bearingpoint.entities.Task;
 import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -15,13 +14,13 @@ import org.hibernate.Transaction;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
-public class TaskDao implements GeneralDaoIntf<Task, String> {
+public class Description implements GeneralDaoIntf<Description, Long> {
 
 	private Session currentSession;
 	
 	private Transaction currentTransaction;
 
-	public TaskDao() {
+	public Description() {
 	}
 
 	public Session openCurrentSession() {
@@ -68,34 +67,36 @@ public class TaskDao implements GeneralDaoIntf<Task, String> {
 		this.currentTransaction = currentTransaction;
 	}
 
-	public void persist(Task entity) {
+	public void persist(Description entity) {
 		getCurrentSession().save(entity);
 	}
 
-	public void update(Task entity) {
+	public void update(Description entity) {
 		getCurrentSession().update(entity);
 	}
 
-	public Task findById(String id) {
-		Task task = (Task) getCurrentSession().get(Task.class, id);
-		return task; 
+	public Description findById(Long id) {
+		Description Description = (Description) getCurrentSession().get(Description.class, id);
+		return Description; 
 	}
 
-	public void delete(Task entity) {
+	public void delete(Description entity) {
 		getCurrentSession().delete(entity);
 	}
 
 	@SuppressWarnings("unchecked")
-	public List<Task> findAll() {
-		List<Task> tasks = (List<Task>) getCurrentSession().createQuery("from Task").list();
-		return tasks;
+	public List<Description> findAll() {
+		List<Description> Descriptions = (List<Description>) getCurrentSession().createQuery("from Description").list();
+		return Descriptions;
 	}
 
 	public void deleteAll() {
-		List<Task> entityList = findAll();
-		for (Task entity : entityList) {
+		List<Description> entityList = findAll();
+		for (Description entity : entityList) {
 			delete(entity);
 		}
 	}
+
+
 
 }
