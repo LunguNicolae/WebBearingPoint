@@ -5,6 +5,7 @@
  */
 package com.bearingpoint.frontend;
 
+import com.bearingpoint.constants.Constants;
 import com.bearingpoint.entities.Book;
 import com.bearingpoint.entities.User;
 import com.bearingpoint.entities.UserRole;
@@ -80,16 +81,23 @@ public class LoginProcess extends HttpServlet {
 
         User user = new User(email, password);
         UserServiceIntf userService = new UserServiceImpl();
-        System.out.println("user  Main"+user.toString());
+
         User userSearch = (User) userService.findByUserNamePassword(user);
-        User userTest = (User) userService.findById(1L);
-        System.out.println(" test "+userTest.toString());
-        System.out.println("usersearch "+userSearch);
+//        User userTest = (User) userService.findById(1L);
+
         if (userSearch == null) {
             request.setAttribute("error", "Autentification failed!");
             request.getRequestDispatcher("/WEB-INF/frontpage/login.jsp").forward(request, response);
         } else {
-            response.sendRedirect("cms/homePage");
+        	
+        	if(userSearch.getUserRole().getRoles().equals(Constants.USER_ROLE_ADMIN)){
+        		
+        		response.sendRedirect("cms/homePage");
+        	} else if (userSearch.getUserRole().getRoles().equals(Constants.USER_ROLE_USER)){
+        		response.sendRedirect("user/homePage");
+        		
+        	}
+            
         }
       
     }

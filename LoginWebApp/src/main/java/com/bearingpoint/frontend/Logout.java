@@ -1,4 +1,4 @@
-package com.bearingpoint.cms;
+package com.bearingpoint.frontend;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -34,7 +34,7 @@ System.out.println("right here");
 		HttpSession session  = request.getSession();
 		session.invalidate();
 		
-		response.sendRedirect("/home.html");
+		response.sendRedirect("/LoginWebApp/home.html");
 		
 	}
 
@@ -45,11 +45,6 @@ System.out.println("right here");
 		// TODO Auto-generated method stub
 		doGet(request, response);
 		
-System.out.println("right here");
-		HttpSession session  = request.getSession();
-		session.invalidate();
-		
-		response.sendRedirect("/home.html");
 		
 	}
 

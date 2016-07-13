@@ -17,8 +17,8 @@ public class Version {
 	@Column(name = "release")
     private String release;
 	
-	@Column(name = "version")
-    private String version;
+//	@Column(name = "version")
+//    private String version;
 
 	public Long getId() {
 		return id;
@@ -36,18 +36,18 @@ public class Version {
 		this.release = release;
 	}
 
-	public String getVersion() {
-		return version;
-	}
-
-	public void setVersion(String version) {
-		this.version = version;
-	}
-
-	@Override
-	public String toString() {
-		return "Version [id=" + id + ", release=" + release + ", version=" + version + "]";
-	}
+//	public String getVersion() {
+//		return version;
+//	}
+//
+//	public void setVersion(String version) {
+//		this.version = version;
+//	}
+//
+//	@Override
+//	public String toString() {
+//		return "Version [id=" + id + ", release=" + release + ", version=" + version + "]";
+//	}
 	
 	
 	

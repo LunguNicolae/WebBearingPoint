@@ -20,9 +20,11 @@
         <mapping class="com.bearingpoint.entities.Version"/>
         <mapping class="com.bearingpoint.entities.Person"/>
         <mapping class="com.bearingpoint.entities.Priority"/>
+        <mapping class="com.bearingpoint.entities.Project"/>
         <mapping class="com.bearingpoint.entities.Description"/>
         <mapping class="com.bearingpoint.entities.Statute"/>
         <mapping class="com.bearingpoint.entities.Task"/>
+        
         
     </session-factory>
 </hibernate-configuration>

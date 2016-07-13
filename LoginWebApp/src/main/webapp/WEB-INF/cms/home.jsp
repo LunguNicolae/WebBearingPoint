@@ -46,7 +46,7 @@
 
             <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown">
-                    <a class="dropdown-toggle" href="/logout.html">Logout</a>
+                    <a class="dropdown-toggle" href="../logout.html">Logout</a>
                   
             </ul>
             <!-- /.navbar-top-links -->
