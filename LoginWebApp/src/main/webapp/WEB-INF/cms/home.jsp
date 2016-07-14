@@ -67,7 +67,7 @@
   
                         </li>
                         <li>
-                            <a href="/cms/users.html">Users</a>
+                            <a href="../cms/users.html">Users</a>
                         </li>                
                     </ul>
                 </div>

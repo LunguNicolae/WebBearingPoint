@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ADMIN Page</title>
+    <title>USER Page</title>
 
     
          <!--Bootstrap Core CSS--> 
@@ -60,10 +60,10 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="../user/project.html"></i> Project</a>
+                            <a href="../user/project.html">Project</a>
                         </li>
                         <li>
-                            <a href="../user/task.html">Task</span></a>
+                            <a href="../user/task.html">Task</a>
   
                         </li>         
                     </ul>
@@ -76,45 +76,23 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Forms</h1>
+                    <h1 class="page-header">USERS</h1>
                 </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Basic Form Elements
-                        </div>
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <form role="form">
-                                        <div class="form-group">
-                                            <label>Text Input</label>
-                                            <input class="form-control">
-                                            <p class="help-block">Example block-level help text here.</p>
-                                        </div>
-                                   
-                                    </form>
-                                </div>
-                                <!-- /.col-lg-6 (nested) -->
-                            </div>
-                            <!-- /.row (nested) -->
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /#page-wrapper -->
+       
+                      <table class="table table-hover">
+                         <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                            <th>Function</th>
+                         </tr>
+                      </table>
 
-    </div>
-    <!-- /#wrapper -->
+             </div>
+        </div>
+        
+   </div>
 
      <!--jQuery--> 
     <script src="../style/js/jquery.min.js"></script>

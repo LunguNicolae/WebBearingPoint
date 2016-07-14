@@ -29,6 +29,8 @@ public class Task {
 	@ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "version_id",nullable = true)
     private Version version;
+	
+	
 //	
 //	@ManyToOne(fetch = FetchType.EAGER)
 //    @JoinColumn(name = "project_id",nullable = true)
