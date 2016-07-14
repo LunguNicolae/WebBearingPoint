@@ -1,9 +1,3 @@
-<%-- 
-    Document   : error
-    Created on : Jul 9, 2016, 7:23:13 PM
-    Author     : petru
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

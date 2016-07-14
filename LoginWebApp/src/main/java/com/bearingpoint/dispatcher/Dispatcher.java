@@ -39,6 +39,15 @@ public class Dispatcher extends HttpServlet {
             case "/logout.html":
                 page = "logout";
                 break;
+            case "/project.html":
+                page= "project";
+                break;
+            case "/task.html":
+            	page="task";
+            	break;
+            case "/user.html":
+            	page="user";
+            	break;
             default:
 
                 request.setAttribute("error", url + " nu exista! ");

@@ -40,7 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Admin PAGE</a>
+                <a class="navbar-brand" href="homePage">Admin PAGE</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -60,14 +60,14 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="../cms/project.html"></i> Project</a>
+                            <a href="../cms/projectPage">Project</a>
                         </li>
                         <li>
-                            <a href="../cms/task.html">Task</span></a>
+                            <a href="../cms/taskPage">Task</a>
   
                         </li>
                         <li>
-                            <a href="../cms/users.html">Users</a>
+                            <a href="../cms/userPage">User</a>
                         </li>                
                     </ul>
                 </div>
@@ -79,40 +79,9 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Forms</h1>
+                    <h1 class="page-header">Welcome ADMIN!</h1>
                 </div>
-                <!-- /.col-lg-12 -->
             </div>
-            <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Basic Form Elements
-                        </div>
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <form role="form">
-                                        <div class="form-group">
-                                            <label>Text Input</label>
-                                            <input class="form-control">
-                                            <p class="help-block">Example block-level help text here.</p>
-                                        </div>
-                                   
-                                    </form>
-                                </div>
-                                <!-- /.col-lg-6 (nested) -->
-                            </div>
-                            <!-- /.row (nested) -->
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
         </div>
         <!-- /#page-wrapper -->
 

@@ -40,7 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">User PAGE</a>
+                <a class="navbar-brand" href="../user/homePage">User PAGE</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -60,11 +60,10 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="../user/project.html">Project</a>
+                            <a href="../user/projectPage">Project</a>
                         </li>
                         <li>
-                            <a href="../user/task.html">Task</a>
-  
+                            <a href="../user/taskPage">Task</a>
                         </li>         
                     </ul>
                 </div>
@@ -90,6 +89,10 @@
                       </table>
 
              </div>
+             
+             <!-- Indicates a successful or positive action -->
+            <a class="btn btn-success" href="#" role="button">Add User</a>          
+             
         </div>
         
    </div>
